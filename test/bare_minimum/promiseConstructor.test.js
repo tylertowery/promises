@@ -2,7 +2,7 @@ var nock = require('nock');
 var expect = require('chai').expect;
 var Promise = require('bluebird');
 
-xdescribe('Promise constructor', function() {
+describe('Promise constructor', function() {
   var promiseConstructor = require('../../exercises/bare_minimum/promiseConstructor.js');
 
   describe('pluckFirstLineFromFileAsync', function() {
